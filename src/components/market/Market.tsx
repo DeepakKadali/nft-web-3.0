@@ -5,6 +5,7 @@ import {
   AccordionHeader,
   AccordionBody,
 } from "@material-tailwind/react";
+import './Market.css';
 
 type Props = {}
 
@@ -81,25 +82,60 @@ const Market = (props: Props) => {
               view on Opensea
             </Button>
           </div>
-          <div className="flex gap-2">
-            <div>
+          <div className="basis-3/4 flex gap-2 z-20 overflow-x-scroll custom-overflow">
+            <div className="flex-none h-[280px] w-[280px]">
               <img
-                className="h-[280px] w-[250px]"
-                src="https://i.seadn.io/gae/ZfZdJWnEAsF_XwHWDI8iLjjGhvXxgp1E7R0DeZbANABVW8Y6XTeIvh7_9jvUAieKAsiP4kJ8ev0JXL2Wj6rTpz6UuWE--gNQAOVW2Q?auto=format&dpr=1&w=1000"
+                className="w-auto min-w-0"
+                src="https://i.seadn.io/gae/LHymcr4NHQVQWQG-OImHAKrJAcyeRevLeaehZ_TgrZhTeczhce1d3WNLXcFYmxyfv4miN1D2gqkJrdbWvMtyDSe-xfz060Af3yrQMQ?auto=format&dpr=1&w=512"
                 alt="alt"
               />
             </div>
-            <div>
+            <div className="flex-none h-[280px] w-[280px]">
               <img
-                className="h-[280px] w-[250px]"
-                src="https://i.seadn.io/gae/7aqFJWm8Gh1UMq58utbbNm2BQGhFgPq6o6QK-YWIt6-wVqv5j4g37xuKCLGwrKI7i9ivgrEjAk8DbYi-KVOW0YDFUzegbKR0Vy5f?auto=format&dpr=1&w=512"
+                className="w-auto min-w-0"
+                src="https://i.seadn.io/gae/Wj970De-DQoHZfWPRNym4YXXSmaRAvB8rBDDondJVd1Y4NupOWVM-egGOgC73aDGqxY0cfm-JdQk9L9G_aoj8IWD870Fo_6G6i0_?auto=format&dpr=1&w=512"
                 alt="alt"
               />
             </div>
-            <div>
+            <div className="flex-none h-[280px] w-[280px]">
               <img
-                className="h-[280px] w-[250px]"
-                src="https://i.seadn.io/gae/X-sI3O4cZ7iYip5PdpF8v5aSBQAw3BX_GqV9pp_m9DU8ehd9_7uBqbm_aFfTrqyf-gr96zsp83RENrymCwS63DdZXFEy5QxAfiw_?auto=format&dpr=1&w=512"
+                className="w-auto min-w-0"
+                src="https://i.seadn.io/gae/UZT07MwGlTAJD1EdQwcX9OWWJv6IGPWWpHrIHEJpB8v-YXI3hLdfRFuwAfsL7k1NYBeIUfGiFAKUUL95xUZVuPylYs1nXxJ3ZAjB?auto=format&dpr=1&w=512"
+                alt="alt"
+              />
+            </div>
+            <div className="flex-none h-[280px] w-[280px]">
+              <img
+                className="w-auto min-w-0"
+                src="https://i.seadn.io/gae/ktM766YVd6f4HIkRGcaBIXz4Ve_7Wat6itJl0vKvJwa5c6rDwiZf9Gr7RPu5tXF3M6tuFHe-MRo8p0qpx5jmujtJOw4KYM1_dCHJcQ?auto=format&dpr=1&w=512"
+                alt="alt"
+              />
+            </div>
+            <div className="flex-none h-[280px] w-[280px]">
+              <img
+                className="w-auto min-w-0"
+                src="https://i.seadn.io/gae/ID86ieR_S8Xf1jGdraRgbj9LKcv6V5TyyU3AeMUJm8GF14CKqSfbr75FLEPT8LIpzCrYBnbCGue0lrUROAYhVc9Ab5wyMQQWcO-g?auto=format&dpr=1&w=512"
+                alt="alt"
+              />
+            </div>
+            <div className="flex-none h-[280px] w-[280px]">
+              <img
+                className="w-auto min-w-0"
+                src="https://i.seadn.io/gae/SsssCyUB43gNrD7TVdc4d2SBUYRmxnm4zB9ydSWKfNd0A6SSW8ythc108xcdGbRxBPrrPpYNNliz8qx78MiFUOvbe0IKw1qL73sA8w?auto=format&dpr=1&w=512"
+                alt="alt"
+              />
+            </div>
+            <div className="flex-none h-[280px] w-[280px]">
+              <img
+                className="w-auto min-w-0"
+                src="https://i.seadn.io/gae/AiCS7hNdBAGrrJb0y9T7I_ou_ThxLABpqLJgkfFihrvIoGXH-vSUTWb_NQWReAEljdEsuX6zaHbhkVm-zS-r41-o9qYgC54J3lYt?auto=format&dpr=1&w=512"
+                alt="alt"
+              />
+            </div>
+            <div className="flex-none h-[280px] w-[280px]">
+              <img
+                className="w-auto min-w-0"
+                src="https://i.seadn.io/gae/fU2Fpo9UL4KpHzraw0_tdM0t77Jb18KLcCiM0MOjYA2FvmMM0lSGlaHhaaBmchEPqG-7mMwTAla93TU_XCmOTB3kma2Kw1ASA0kAdKs?auto=format&dpr=1&w=512"
                 alt="alt"
               />
             </div>
